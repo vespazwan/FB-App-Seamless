@@ -79,8 +79,8 @@ mpsmerchantid |	an{1..32} |	*M*	| Merchant login username provided by MOLPay.
 mpschannel |	an{3..32} |	*M* | Refer to **Appendix C** for more channel code.
 mpsamount |	ns{10,2} |	*M* |	The transaction amount in one bill. **Min accepted amount : 1.01**
 mpsorderid |	an{1..32} |	*M* |	Bill / Invoice no. provided by merchant.
-mpsbill_name |	a{1..128} |	*M* |	Buyer name.
-mpsbill_email |	ans{1..128} |	*M* |	Buyer email.
+mpsbill_name |	a{1..128} |	*M* |	Propagated from FB.
+mpsbill_email |	ans{1..128} |	*M* |	Propagated from FB.
 mpsbill_mobile |	n{1..128} |	*M* |	Buyer mobile contact number.
 mpsbill_desc |	an{1..200} |	*M* |	Bill / Description provided by merchant / buyer.
 mpscountry |	a{2} |	*O* |	Buyer country.
