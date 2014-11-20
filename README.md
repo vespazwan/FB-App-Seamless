@@ -9,6 +9,10 @@ Please do not geneate your vcode in JS as this will disclose the merchant verify
 
 Please refer our example file (index.php and molpay_facebook_seamless.js)
 
+1. Change your App-ID in line 7: `appId: '{Your FB AppID}'`
+
+2. Change your Merchant ID in line 22: `data-mpsmerchantid=\"{MerchantID}\"`
+
 Getting started
 ---------------
 
