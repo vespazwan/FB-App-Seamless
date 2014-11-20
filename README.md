@@ -19,14 +19,14 @@ Include below javascript library in your web.
 ```html
  <!-- jQuery (necessary for MOLPay Seamless JavaScript plugins) -->
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
- "<script src="https://yourwebsitename.com/js/MOLPay_facebook_seamless.js"></script>"
+ Put your .js file here. For example:"<script src="./molpay_facebook_seamless.js"></script>"
  <script src="https://www.onlinepayment.com.my/MOLPay/API/seamless/js/MOLPay_seamless.deco.js"></script> 
 ```
 
 Example
 ---------
 
-<a href="https://apps.facebook.com/297068957134932/" target="_blank">Click Me!</a>
+<a href="https://apps.facebook.com/297068957134932/" target="_blank">For Example Click Here!</a>
 ```html
 <!-- Button trigger MOLPay Seamless -->
 <button type="button" id="myPay" class="btn btn-primary btn-lg" data-toggle="molpayseamless" data-mpsmerchantid="molpaymerchant" data-mpschannel="maybank2u" data-mpsamount="1.20" data-mpsorderid="TEST1139669863" data-mpsbill_name="MOLPay Technical" >Pay by Maybank2u</button>
