@@ -1,3 +1,5 @@
+![Screenshot for FB App Seamless](https://cloud.githubusercontent.com/assets/6263224/6797959/5215cb58-d243-11e4-92d5-a373d55a1e17.jpg)
+
 MOLPay FB App Seamless Integration
 =======================================
 
